@@ -5,8 +5,9 @@ import Participants from "@/components/participants";
 export default function Home() {
   return (
     <div className="flex justify-between ">
-      <Tools />
-      <div className=" ">
+      <div className="fixed left-2 "><Tools /></div>
+      
+      <div className=" fixed right-2  ">
         <Color />
         <Participants/>
       </div>
